@@ -64,6 +64,7 @@ jar cf wc.jar WordCount*.class
 ```
 ./hadoop fs -cat /user/terry/wordcount/output/part-r-00000
 ```
-
+## Finally,
+![Result](https://github.com/Terrylin2023/wordcountCS230/blob/main/Result.png)
 
 Ref(https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
