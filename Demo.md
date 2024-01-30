@@ -29,8 +29,7 @@ nano example.txt
 ```
 If success, you should see this:
 
-Found 1 items
--rw-r--r--   3 ubuntu supergroup         44 2024-01-30 00:04 /user/terry/wordcount/input/example.txt
+![txt](https://github.com/Terrylin2023/wordcountCS230/blob/main/text.png)
 
 - Then, check the content
 ```
