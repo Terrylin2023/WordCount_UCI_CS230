@@ -1,9 +1,15 @@
 # Step 1
 You should already finish this prompts https://github.com/ISG-ICS/CS230/blob/main/hadoop_on_aws_ec2.md
 # Stap 2 
-- On Master node only: Run the following command in <HadoopInstallationFolder>/sbin/ folder to start your cluster. It will take a while.
+- On Master node only: Run the following command in `<HadoopInstallationFolder>/sbin/` folder to start your cluster. It will take a while.
 ```
 ./start-dfs.sh
+./start-yarn.sh
+```
+- Set `<HadoopInstallationFolder>/etc/hadoop/hadoop-env.sh`
+```bash
+export PATH=${JAVA_HOME}/bin:${PATH}
+export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
 ```
 - Create the dictionary
 ```
