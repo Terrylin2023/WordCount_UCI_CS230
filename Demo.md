@@ -4,7 +4,6 @@ You should already finish this prompts https://github.com/ISG-ICS/CS230/blob/mai
 - On Master node only: Run the following command in `<HadoopInstallationFolder>/sbin/` folder to start your cluster. It will take a while.
 ```
 ./start-dfs.sh
-./start-yarn.sh
 ```
 - Set `<HadoopInstallationFolder>/etc/hadoop/hadoop-env.sh`
 ```bash
